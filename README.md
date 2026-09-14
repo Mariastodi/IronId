@@ -4,7 +4,7 @@ Projeto de estudo de Maria Beatriz em PHP e Laravel. API REST autenticada, paine
 
 Repositório: https://github.com/Mariastodi/IronId
 
-Demonstração: [https://ironid-maria-beatriz.onrender.com](https://ironid.onrender.com/)
+Demonstração: [ironid.onrender.com](https://ironid.onrender.com)
 
 ## Executar localmente
 
@@ -70,6 +70,10 @@ vendor/bin/pint --test app routes tests
 Controllers coordenam HTTP, Form Requests validam entradas, Services concentram regras, Resources definem o JSON e Models representam persistência. Veja [decisões e limites](docs/ARCHITECTURE.md).
 
 Inclui [laboratório SQL Server](docs/sql-server/README.md) separado com View, Procedure, Function, Trigger e permissões. A aplicação foi validada em SQLite; o laboratório ainda precisa ser executado em SQL Server. Não há integração ERP real.
+
+## Publicação
+
+A demonstração está hospedada no Render em [ironid.onrender.com](https://ironid.onrender.com). O serviço usa Docker e SQLite para demonstração. Em reinicializações ou novas implantações do plano gratuito, os dados podem ser recriados com a base de exemplo.
 
 ## Reconhecimento e limites
 

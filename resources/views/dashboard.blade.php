@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>IronID Gestão de acesso</title>
+<title>IronID</title>
 <link rel="stylesheet" href="/css/app.css">
 <script src="/js/dashboard.js" defer>
 </script>
@@ -13,21 +13,16 @@
 <aside class="sidebar">
 <a class="logo" href="/">iron<b>id.</b>
 </a>
-<div>
-<div class="eyebrow">Workspace / Academia</div>
-<nav class="nav" style="margin-top:20px">
+<nav class="nav" aria-label="Navegação principal">
 <a class="selected" href="/">Visão geral</a>
 <a href="/kiosk">◎ &nbsp; Check-in facial</a>
 <a href="/enroll">⊕ &nbsp; Cadastro facial</a>
 <a href="/api-reference.html">↗ &nbsp; Documentação API</a>
 </nav>
-</div>
 
 </aside>
 <main class="main">
 <header class="topbar">
-<span>Operação <span class="muted"> / Visão geral</span>
-</span>
 <div class="toolbar">
 <span id="operator" class="muted">Área da recepção</span>
 <button class="secondary" id="logout" hidden>Sair</button>
@@ -42,7 +37,7 @@
 <input id="email" type="email" autocomplete="username" required placeholder="seu@email.com">
 <label for="password">Senha</label>
 <input id="password" type="password" autocomplete="current-password" required>
-<button>Entrar no workspace →</button>
+<button>Entrar →</button>
 </form>
 </section>
 <div id="notice" role="status" class="message" hidden>

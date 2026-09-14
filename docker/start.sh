@@ -15,6 +15,9 @@ if [ ! -f "$database_path" ]; then
     database_created=true
 fi
 
+chown www-data:www-data "$database_path"
+chmod 664 "$database_path"
+
 php artisan migrate --force
 
 if [ "$database_created" = true ]; then
