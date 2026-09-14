@@ -1,4 +1,4 @@
-# IronID — Gestão de alunos e check-in facial
+# IronID - Gestão de alunos e check-in facial
 
 Projeto de estudo de Maria Beatriz em PHP e Laravel. API REST autenticada, painel responsivo, cadastro facial e totem com nome, matrícula e situação do plano. Desenvolvido para demonstrar modelagem de domínio, integração entre front-end e API e regras de negócio testáveis.
 
@@ -51,7 +51,6 @@ curl -X POST 'http://127.0.0.1:8000/api/login' \
   -H 'Accept: application/json' \
   -d '{"email":"admin@ironid.com","password":"password"}'
 
-# Guarde o token retornado em TOKEN; não o publique.
 curl 'http://127.0.0.1:8000/api/members?per_page=1' \
   -H "Authorization: Bearer $TOKEN" \
   -H 'Accept: application/json'
