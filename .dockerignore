@@ -1,0 +1,7 @@
+.git
+.env
+database/*.sqlite
+docs/candidatura
+node_modules
+storage/logs/*
+vendor

@@ -4,6 +4,8 @@ Projeto de estudo de Maria Beatriz em PHP e Laravel. API REST autenticada, paine
 
 Repositório: https://github.com/Mariastodi/IronId
 
+Demonstração: https://ironid-maria-beatriz.onrender.com
+
 ## Executar localmente
 
 Requisitos: PHP 8.3+, Composer e SQLite. As dependências exatas estão no composer.lock.
@@ -74,4 +76,3 @@ Inclui [laboratório SQL Server](docs/sql-server/README.md) separado com View, P
 face-api.js extrai um vetor de 128 números no navegador. O backend busca a menor distância euclidiana entre descritores de alunos ativos. O nome vem do cadastro associado ao vetor. O sistema não identifica desconhecidos pela internet.
 
 Este é um protótipo educacional assistido pela recepção: não há prova de vida, garantia contra fotografia, criptografia de campo ou validação de acurácia em população real. Não utilizar como controle físico autônomo. O banco local contém dados de demonstração; cadastre rostos apenas com autorização. Não versione .env, banco, tokens ou biometria.
-
